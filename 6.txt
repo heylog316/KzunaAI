@@ -1,0 +1,10 @@
+题目：用*号输出字母C的图案。
+代码：
+'''
+print( 'Hello Python world!\n')
+print ('*'* 10)
+for i in range(5):
+print ('*	*')
+print ('*'* 10)
+print ('*\n‘ * 6)
+'''
