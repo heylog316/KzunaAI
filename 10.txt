@@ -1,0 +1,14 @@
+【程序10]
+题目：打印楼梯，同时在楼梯上方打印两个笑脸。
+代码：
+'''
+import sys
+sys.stdout.write(chr(1))
+sys.stdout.write(chr(1))
+print"
+for i in range(l,ll):
+    for j in range(lj):
+        sys.stdout.write(chr(219))
+        sys.stdout.write(chr(219))
+print"
+'''

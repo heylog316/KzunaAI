@@ -1,0 +1,14 @@
+【程序9】
+题目：要求输出国际象棋棋盘。
+代码：
+'''
+import sys
+for i in range(8):
+    for j in range(8):
+        if(i+j)%2== 0:
+            sys.stdout.write(chr(219))
+            sys.stdout.write(chr(219)) 
+        else:
+            sys.stdout.write('')
+    print"
+'''
