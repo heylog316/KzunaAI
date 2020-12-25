@@ -1,0 +1,16 @@
+题目：求 s=a+aa+aaa+aaaa+aa...a 的值，其中 a 是一个数字。例如 2+22+222+2222+22222(此 时
+共有5个数相加)，几个数相加有键盘控制。
+代码：
+Tn = 0
+Sn = []
+n = int(raw_input('n = :\n'))
+a = int(raw_input('a = :\n'))
+for count in range(n):
+    Tn = Tn + a
+    a = a * 10
+    Sn.append(Tn)
+    print(Tn)
+
+
+Sn = reduce(lambda x,y : x + y,Sn)
+print(Sn)
